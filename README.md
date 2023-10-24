@@ -6,7 +6,7 @@
 *Codigo en Python para mensaje "Hola mundo" en una pantalla LCD\
 *Codigo en Arduino IDE para mensaje "Hola mundo" por medio del LED integrado a nuestra Pico\
 *Evaluacion\
-*Recursoso\
+*Recursos
 
 <h1>Descripcion</h1>
 <p>El objetivo de este trabajo es adentrarnos en el mundo de la programación y la electrónica a través del uso de dos herramientas clave: el simulador de Wokwi y el entorno de desarrollo Arduino IDE. En nuestra primera práctica, nos sumergiremos en este emocionante viaje, que comenzará con la creación de un clásico "Hola Mundo" digital.
