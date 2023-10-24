@@ -3,8 +3,6 @@
 
 *Descripcion\
 *Codigo en C para mensaje "Hola mundo"\
-*Codigo en Python para mensaje "Hola mundo" en una pantalla LCD\
-*Codigo en Arduino IDE para mensaje "Hola mundo" por medio del LED integrado a nuestra Pico\
 *Evaluacion\
 *Recursos
 
