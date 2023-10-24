@@ -1,7 +1,7 @@
 <h1>Simulador Pico 3.1</h1>
-<h2>Tabla de contenidos</h2>
+<h1>Tabla de contenidos</h1>
 
-*()Descripcion\
+*Descripcion\
 *Codigo en C para mensaje "Hola mundo"\
 *Codigo en Phyton para mensaje "Hola mundo" en una pantalla LCD\
 *Codigo en Arduino IDE para mensaje "Hola mundo" por medio del LED integrado a nuestra Pico\
