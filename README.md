@@ -3,8 +3,10 @@
 
 *Descripcion\
 *Codigo en C para mensaje "Hola mundo"\
-*Codigo en Phyton para mensaje "Hola mundo" en una pantalla LCD\
+*Codigo en Python para mensaje "Hola mundo" en una pantalla LCD\
 *Codigo en Arduino IDE para mensaje "Hola mundo" por medio del LED integrado a nuestra Pico\
+*Evaluacion\
+*Recursoso\
 
 <h1>Descripcion</h1>
 <p>El objetivo de este trabajo es adentrarnos en el mundo de la programación y la electrónica a través del uso de dos herramientas clave: el simulador de Wokwi y el entorno de desarrollo Arduino IDE. En nuestra primera práctica, nos sumergiremos en este emocionante viaje, que comenzará con la creación de un clásico "Hola Mundo" digital.
@@ -64,11 +66,9 @@ int main() {
   "connections": [ [ "pico:GP0", "$serialMonitor:RX", "", [] ], [ "pico:GP1", "$serialMonitor:TX", "", [] ] ],
   "dependencies": {}
 }
-/*
-*Link del simulador en wokwi: https://wokwi.com/projects/379441717190659073
-*/
+
 ```
-<h1>Codigo en Phyton para mensaje "Hola mundo" en una pantalla LCD</h1>
+<h1>Codigo en Python para mensaje "Hola mundo" en una pantalla LCD</h1>
 
 ```Phyton
 /*
@@ -404,7 +404,7 @@ class LcdApi:
   "dependencies": {}
 }
 
-/*Link del simulador en wokwi: https://wokwi.com/projects/379357430191015937*/
+
 
 ```
 <h1>Codigo en Arduino IDE para mensaje "Hola mundo" por medio del LED integrado a nuestra Pico</h1>
@@ -432,3 +432,10 @@ void loop() {
 
 ```
 
+<h1>Evaluacion</h1>
+-Criterio1: 1100% DEPOSTAR EL URL de su Wokwi funcionando Incluir el templete del código sin el no se recibirán las practicas.
+
+<h1>Recursos</h1>
+1.[Recurso 1]Link para Wowi funcionando en C: ( https://wokwi.com/projects/379441717190659073)
+
+2.[Recurso 2]Link para Wowi funcionando en Python: (https://wokwi.com/projects/379357430191015937)
