@@ -438,6 +438,6 @@ void loop() {
 -Criterio1: 1100% DEPOSTAR EL URL de su Wokwi funcionando Incluir el templete del código sin el no se recibirán las practicas.
 
 <h1>Recursos</h1>
-1.[Recurso 1]Link para Wowi funcionando en C: ( https://wokwi.com/projects/379441717190659073)
+1.[Recurso 1]Link para Wowi funcionando en C: ( https://wokwi.com/projects/379507925030427649)
 
 2.[Recurso 2]Link para Wowi funcionando en Python: (https://wokwi.com/projects/379357430191015937)
