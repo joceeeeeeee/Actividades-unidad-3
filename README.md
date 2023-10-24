@@ -1,5 +1,16 @@
+<h1>Simulador Pico 3.1</h1>
+<h2>Tabla de contenidos</h2>
 
+*()Descripcion\
+*Codigo en C para mensaje "Hola mundo"\
+*Codigo en Phyton para mensaje "Hola mundo" en una pantalla LCD\
+*Codigo en Arduino IDE para mensaje "Hola mundo" por medio del LED integrado a nuestra Pico\
 
+<h1>Descripcion</h1>
+<p>El objetivo de este trabajo es adentrarnos en el mundo de la programación y la electrónica a través del uso de dos herramientas clave: el simulador de Wokwi y el entorno de desarrollo Arduino IDE. En nuestra primera práctica, nos sumergiremos en este emocionante viaje, que comenzará con la creación de un clásico "Hola Mundo" digital.
+
+En primer lugar, es importante entender la relevancia de estas dos herramientas. El simulador de Wokwi nos proporciona un entorno virtual en el que podemos diseñar, construir y probar circuitos electrónicos en tiempo real. Esto nos permite experimentar con conceptos de electrónica sin necesidad de hardware físico, lo que es especialmente útil para principiantes. Por otro lado, el Arduino IDE es el entorno de programación que utilizaremos para escribir y cargar código en nuestro dispositivo Arduino, el cual controlará el comportamiento de nuestros circuitos.</p>
+<h1>Codigo en C para mensaje "Hola mundo"</h1>
 ```C
 /*
  * Nombre del Archivo: main.c
@@ -57,7 +68,7 @@ int main() {
 *Link del simulador en wokwi: https://wokwi.com/projects/379441717190659073
 */
 ```
-
+<h1>Codigo en Phyton para mensaje "Hola mundo" en una pantalla LCD</h1>
 
 ```Phyton
 /*
@@ -366,7 +377,6 @@ class LcdApi:
 
 ```
 
-
 ```json
 /*
 *Este codigo nos permite visualizar la programacion del Hardware
@@ -397,6 +407,8 @@ class LcdApi:
 /*Link del simulador en wokwi: https://wokwi.com/projects/379357430191015937*/
 
 ```
+<h1>Codigo en Arduino IDE para mensaje "Hola mundo" por medio del LED integrado a nuestra Pico</h1>
+
 
 ```
 /*
