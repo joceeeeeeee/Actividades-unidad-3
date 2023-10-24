@@ -42,13 +42,10 @@ int main() {
   }
 }
 
-```
 
 
-```json
-/*
-*Este codigo nos permite visualizar la programacion del Hardware
-*/
+//Este codigo nos permite visualizar la programacion del Hardware
+
 {
   "version": 1,
   "author": "Jocelyn Leyva Garay",
