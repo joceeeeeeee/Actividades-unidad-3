@@ -1,7 +1,4 @@
-# templete-picow
-Para trabajos de microcontroladores
 
-# Ver el directorio de /code/ para como documentar un programa con sus pantallas, etc.
 
 ```C
 /*
