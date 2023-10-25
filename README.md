@@ -97,6 +97,26 @@ ________________________________________________________________________________
 
 En primer lugar, es importante entender la relevancia de estas dos herramientas. El simulador de Wokwi nos proporciona un entorno virtual en el que podemos diseñar, construir y probar circuitos electrónicos en tiempo real. Esto nos permite experimentar con conceptos de electrónica sin necesidad de hardware físico, lo que es especialmente útil para principiantes. Por otro lado, el Arduino IDE es el entorno de programación que utilizaremos para escribir y cargar código en nuestro dispositivo Arduino, el cual controlará el comportamiento de nuestros circuitos.</p>
 
+<h2>Reflexion</h2>
+<p>Desarrollar la actividad que implicaba ejecutar el ejemplo "Hola Mundo" en Wokwi, correr el ejemplo de la ASCII-Table en la PICOW a través 
+de la Arduino IDE y elaborar un programa que desplegara información en la consola vía Arduino IDE resultó ser una tarea desafiante en un 
+principio. Sin embargo, a medida que fui avanzando, pude comprender la lógica subyacente de cómo utilizar Wokwi y lograr que mi PICOW 
+interactuara con la Arduino IDE de manera efectiva.
+
+En primer lugar, incluir el encabezado del templete de microcontroladores fue esencial. Esto no solo aseguraba que tenía un punto de 
+partida consistente, sino que también me permitía familiarizarme con las configuraciones iniciales del proyecto y establecer una 
+estructura organizada para mi trabajo.
+
+El siguiente paso fue ejecutar el programa a través del templete de Wokwi. Esto requería comprender la plataforma y cómo cargar el
+código en el simulador. Fue un proceso que me llevó tiempo y algunas pruebas, pero finalmente logré que el ejemplo "Hola Mundo" 
+funcionara en Wokwi. Esto me ayudó a apreciar la importancia de familiarizarse con las herramientas y plataformas que estamos 
+utilizando, ya que puede ahorrar mucho tiempo y frustración en el futuro.
+
+Luego, enfrenté el desafío de hacer que el ejemplo de la ASCII-Table se ejecutara en la PICOW a través de la Arduino IDE. 
+Esta parte del proceso me hizo darme cuenta de la importancia de la compatibilidad entre las diferentes plataformas y cómo 
+configurar adecuadamente el entorno de desarrollo. Tuve que investigar y ajustar configuraciones para lograr que el código 
+se cargara y se ejecutara sin problemas.</p>
+
 <h2>Codigos</h2>
 
 
