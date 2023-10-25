@@ -9,9 +9,9 @@
 2.Simulador pico 3.4\
   *Descripcion\
   *Codigos\
-   *Ejemplo de Hola Mundo en Wokwi\
-      *Ejemplo de ASCII-Table de la PICOW via Arduino IDE\
-   *Programa que despliegue en su consola via Arduino IDE\
+   -Ejemplo de Hola Mundo en Wokwi\
+   -Ejemplo de ASCII-Table de la PICOW via Arduino IDE\
+   -Programa que despliegue en su consola via Arduino IDE\
   *Evaluacion\
   *Recursos
 
