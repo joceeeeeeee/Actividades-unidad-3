@@ -1,15 +1,16 @@
 <h1>Simulador Pico 3.1</h1>
 <h1>Tabla de contenidos</h1>
-1.Simulador pico 3.1
-  *Descripcion
-  *Codigo en C para mensaje "Hola mundo"
-  *Evaluacion
-  *Recursos
-2.Simulador pico 3.4
-  *Descripcion
-  *Codigos
-  *Evaluacion
-  *Recursos
+
+1.Simulador pico 3.1\
+  *Descripcion\
+  *Codigo en C para mensaje "Hola mundo"\
+  *Evaluacion\
+  *Recursos\
+2.Simulador pico 3.4\
+  *Descripcion\
+  *Codigos\
+  *Evaluacion\
+  *Recursos\
 
 
 
