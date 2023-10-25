@@ -404,7 +404,7 @@ void loop() {
 -Criterio 2: 50% Corriendo el programa via el templete de WOKWI https://wokwi.com/projects/new/pi-pico-sdk
 -Criterio 3: 25% Programa corriendo en su PicoW via Arduino IDE (o SDK manual de consola-powershell) o tambien VSCode
 <h2>Recursos</h2>
-1.[Recurso 1]Link para Wowi funcionando en C: ( https://wokwi.com/projects/379507925030427649)
+1.[Recurso 1]Link para Wowi funcionando en C: ( https://wokwi.com/projects/379507925030427649)\
 2.[Recursos 2]Link para Wokwi del ejercicio de poblacion: (https://wokwi.com/projects/379507925030427649)
 
 
