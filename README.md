@@ -8,12 +8,14 @@
   *Recursos\
 2.Simulador pico 3.3\
   *Descripcion\
+  *Reflexion\
   *Codigos\
    -Ejemplo de Hola Mundo en Wokwi\
    -Ejemplo de ASCII-Table de la PICOW via Arduino IDE\
    -Programa que despliegue en su consola via Arduino IDE\
   *Evaluacion\
-  *Recursos
+  *Recursos\
+  
 
 
 
@@ -140,6 +142,80 @@ int main() {
   "parts": [
     {
       "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "builder": "pico-sdk" }
+    }
+  ],
+  "connections": [ [ "pico:GP0", "$serialMonitor:RX", "", [] ], [ "pico:GP1", "$serialMonitor:TX", "", [] ] ],
+  "dependencies": {}
+}
+
+```
+<h3>Ejemplo de Poblacion del libro en Wokwi</h3>
+
+```C
+/*
+ * Nombre del Archivo: poblacion
+ * Autor:   JOCELYN LEYVA GARAY
+ * Correo:  L21210388@tectijuana.edu.mx
+ * Fecha:   25/10/2023
+ * Curso:   Lenguajes de Interfaz, TECNM Campus ITT
+ * 
+ * Objetivo
+ *El objetivo del programa es desplegar número de años que se necesitan para que una población inicial se duplique y alcance una población final
+ *
+ * Historial de Revisiones:
+ * [25/10/2023]        [Jocelyn] - Creado
+ * [25/10/2023]        [Jocelyn] - Documentacion y subida de programas
+ * 
+ * Codigo proporcionado en la clase para visualizar el funcionamiento del simulador de PicoW llamado wokwi, el cual se encuentra en lenguaje C
+ */
+
+#include <stdio.h>
+#include "pico/stdlib.h"
+#include <math.h>
+
+int main() {
+  stdio_init_all();
+  while (true) {
+   double poblacionInicial = 3.0;  // Población inicial en millones
+    double poblacionFinal = 300.0;  // Población final en millones
+
+    // Calcular los años necesarios
+    double a = (poblacionFinal / poblacionInicial) / 2.0;
+
+    printf("Se necesitan %.2f años para que una población de %.2f millones se duplique y alcance %.2f millones.\n", a, poblacionInicial, poblacionFinal);
+
+    return 0;
+  }
+}
+
+/*
+ * Nombre del Archivo: poblacion
+ * Autor:   JOCELYN LEYVA GARAY
+ * Correo:  L21210388@tectijuana.edu.mx
+ * Fecha:   25/10/2023
+ * Curso:   Lenguajes de Interfaz, TECNM Campus ITT
+ * 
+ * Objetivo:
+ * Programar que arroja el simulador de wokwi  
+ *
+ * Historial de Revisiones:
+ * [25/10/2023]        [Jocelyn] - Creado
+ * [25/10/2023]        [Jocelyn] - Documentacion y subida de programas
+ * 
+ * Codigo proporcionado en la clase para visualizar el funcionamiento del simulador de PicoW llamado wokwi, el cual se encuentra en lenguaje C
+ */
+
+{
+  "version": 1,
+  "author": "Jocelyn Leyva Garay",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
       "id": "pico",
       "top": 0,
       "left": 0,
@@ -309,6 +385,7 @@ void loop() {
 -Criterio 3: 25% Programa corriendo en su PicoW via Arduino IDE (o SDK manual de consola-powershell) o tambien VSCode
 <h2>Recursos</h2>
 1.[Recurso 1]Link para Wowi funcionando en C: ( https://wokwi.com/projects/379507925030427649)
+2.[Recursos 2]Link para Wokwi del ejercicio de poblacion: (https://wokwi.com/projects/379507925030427649)
 
 
 
