@@ -30,7 +30,7 @@ En primer lugar, es importante entender la relevancia de estas dos herramientas.
  * Nombre del Archivo: main.c
  * Autor:   JOCELYN LEYVA GARAY
  * Correo:  L21210388@tectijuana.edu.mx
- * Fecha:   24/10.2023
+ * Fecha:   24/10/2023
  * Curso:   Lenguajes de Interfaz, TECNM Campus ITT
  * 
  * Objetivo:
@@ -90,7 +90,6 @@ ________________________________________________________________________________
 <p>El objetivo de este trabajo es adentrarnos en el mundo de la programación y la electrónica a través del uso de dos herramientas clave: el simulador de Wokwi y el entorno de desarrollo Arduino IDE. En nuestra primera práctica, nos sumergiremos en este emocionante viaje, que comenzará con la creación de un clásico "Hola Mundo" digital.
 
 En primer lugar, es importante entender la relevancia de estas dos herramientas. El simulador de Wokwi nos proporciona un entorno virtual en el que podemos diseñar, construir y probar circuitos electrónicos en tiempo real. Esto nos permite experimentar con conceptos de electrónica sin necesidad de hardware físico, lo que es especialmente útil para principiantes. Por otro lado, el Arduino IDE es el entorno de programación que utilizaremos para escribir y cargar código en nuestro dispositivo Arduino, el cual controlará el comportamiento de nuestros circuitos.</p>
-<h1>Codigo en C para mensaje "Hola mundo"</h1>
 
 <h2>Codigos</h2>
 
@@ -102,7 +101,7 @@ En primer lugar, es importante entender la relevancia de estas dos herramientas.
  * Nombre del Archivo: main.c
  * Autor:   JOCELYN LEYVA GARAY
  * Correo:  L21210388@tectijuana.edu.mx
- * Fecha:   25/10.2023
+ * Fecha:   25/10/2023
  * Curso:   Lenguajes de Interfaz, TECNM Campus ITT
  * 
  * Objetivo:
@@ -156,7 +155,7 @@ int main() {
  * Nombre del Archivo: ascii table
  * Autor:   JOCELYN LEYVA GARAY
  * Correo:  L21210388@tectijuana.edu.mx
- * Fecha:   25/10.2023
+ * Fecha:   25/10/2023
  * Curso:   Lenguajes de Interfaz, TECNM Campus ITT
  * 
  * Objetivo:
@@ -260,7 +259,7 @@ void loop() {
  * Nombre del Archivo: poblacion
  * Autor:   JOCELYN LEYVA GARAY
  * Correo:  L21210388@tectijuana.edu.mx
- * Fecha:   25/10.2023
+ * Fecha:   25/10/2023
  * Curso:   Lenguajes de Interfaz, TECNM Campus ITT
  *
 
