@@ -6,7 +6,7 @@
   *Codigo en C para mensaje "Hola mundo"\
   *Evaluacion\
   *Recursos\
-2.Simulador pico 3.4\
+2.Simulador pico 3.3\
   *Descripcion\
   *Codigos\
    -Ejemplo de Hola Mundo en Wokwi\
