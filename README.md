@@ -13,7 +13,7 @@
       *Ejemplo de ASCII-Table de la PICOW via Arduino IDE\
    *Programa que despliegue en su consola via Arduino IDE\
   *Evaluacion\
-  *Recursos\
+  *Recursos
 
 
 
