@@ -9,6 +9,9 @@
 2.Simulador pico 3.4\
   *Descripcion\
   *Codigos\
+   *Ejemplo de Hola Mundo en Wokwi\
+      *Ejemplo de ASCII-Table de la PICOW via Arduino IDE\
+   *Programa que despliegue en su consola via Arduino IDE\
   *Evaluacion\
   *Recursos\
 
@@ -253,7 +256,7 @@ void loop() {
 
 ```
 
-<h3> programa que despliegue en su consola via Arduino IDE </h3>
+<h3>Programa que despliegue en su consola via Arduino IDE </h3>
 
 ```ino
 /*
