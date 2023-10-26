@@ -93,9 +93,9 @@ ________________________________________________________________________________
 
 <h1>Simulador Pico 3.3</h1>
 <h2>Descripcion</h2>
-<p>El objetivo de este trabajo es adentrarnos en el mundo de la programación y la electrónica a través del uso de dos herramientas clave: el simulador de Wokwi y el entorno de desarrollo Arduino IDE. En nuestra primera práctica, nos sumergiremos en este emocionante viaje, que comenzará con la creación de un clásico "Hola Mundo" digital.
-
-En primer lugar, es importante entender la relevancia de estas dos herramientas. El simulador de Wokwi nos proporciona un entorno virtual en el que podemos diseñar, construir y probar circuitos electrónicos en tiempo real. Esto nos permite experimentar con conceptos de electrónica sin necesidad de hardware físico, lo que es especialmente útil para principiantes. Por otro lado, el Arduino IDE es el entorno de programación que utilizaremos para escribir y cargar código en nuestro dispositivo Arduino, el cual controlará el comportamiento de nuestros circuitos.</p>
+<p> Esta actividad busca que los estudiantes adquieran habilidades en programación de microcontroladores, 
+ documentación de código, uso de simuladores (Wokwi) y programación en microcontroladores reales (PicoW) 
+ a través de entornos como Arduino IDE, SDK manual o VSCode.</p>
 
 <h2>Reflexion</h2>
 <p>Desarrollar la actividad que implicaba ejecutar el ejemplo "Hola Mundo" en Wokwi, correr el ejemplo de la ASCII-Table en la PICOW a través 
@@ -405,6 +405,7 @@ void loop() {
 -Criterio 3: 25% Programa corriendo en su PicoW via Arduino IDE (o SDK manual de consola-powershell) o tambien VSCode
 <h2>Recursos</h2>
 1.[Recurso 1]Link para Wowi funcionando en C: ( https://wokwi.com/projects/379507925030427649)\
+
 2.[Recursos 2]Link para Wokwi del ejercicio de poblacion: (https://wokwi.com/projects/379507925030427649)
 
 
