@@ -15,6 +15,9 @@
    -Programa que despliegue en su consola via Arduino IDE\
   *Evaluacion\
   *Recursos\
+ 3. Investigacion 3.4\
+ *Preguntas y respuestas de la investigacion
+ 
   
 
 
@@ -406,7 +409,80 @@ void loop() {
 <h2>Recursos</h2>
 1.[Recurso 1]Link para Wowi funcionando en C: ( https://wokwi.com/projects/379507925030427649)\
 
-2.[Recursos 2]Link para Wokwi del ejercicio de poblacion: (https://wokwi.com/projects/379507925030427649)
+2.[Recursos 2]Link para Wokwi del ejercicio de poblacion: (https://wokwi.com/projects/379507925030427649
+
+
+
+________________________________________________________________________________________________________________________________
+
+<h1>Investigacion  3.4</h1>
+<h2>Descripcion</h2>
+<p> En este video, el autor demuestra cómo modularizar librerías de ensamblador de una manera sencilla, con el propósito principal de motivar 
+ a los estudiantes a aprender sobre la escritura de código en ensamblador para la Raspberry Pi Pico. Las respuestas a las preguntas se basan en
+ las experiencias demostradas en el video, que incluyen la creación de una función en ensamblador, la exportación de símbolos, la compilación del
+ código, la verificación del código de ensamblador en el firmware, la carga del firmware en la Raspberry Pi Pico, la resolución de problemas al
+ llamar a funciones específicas y la utilidad de deshabilitar interrupciones para el control preciso del hardware en situaciones críticas.</p>
+
+<h2>Reflexion</h2>
+<p>El video aborda la escritura de código en ensamblador para la Raspberry Pi Pico, con el propósito de obtener un mayor control sobre el hardware 
+ y ejecutar operaciones específicas de manera precisa. Las preguntas planteadas revelan un proceso en el que se crea una función en ensamblador que 
+ opera en un bucle infinito, lo que permite un control total del procesador en modo supervisor.
+
+El proceso de escritura de código de ensamblador comienza con la creación de un archivo llamado "assembly.s", que se guarda con esa extensión. Luego,
+se utiliza la directiva "global" para exportar el símbolo de la función de ensamblador, permitiendo que el compilador lo utilice. El código de ensamblador 
+se compila junto con el código en C utilizando CMake.
+
+La verificación de que el código de ensamblador se haya escrito correctamente en el firmware se realiza mediante el comando "arm-none-eabi-objdump", 
+que inspecciona el ensamblado del código y busca la etiqueta "loop" para confirmar su presencia en el firmware.</p>
+
+<p>
+1. ¿Cuál es el propósito principal de escribir una función en ensamblador para la Raspberry Pi Pico en el video?
+ El propósito principal de escribir una función en ensamblador para la Raspberry Pi Pico en el video es tener un mayor control 
+ sobre el funcionamiento del procesador en modo supervisor, permitiendo la ejecución de código de ensamblador en la Pi Pico.
+ Esto puede ser útil cuando se necesita un control total sobre el hardware y se quiere evitar interrupciones no deseadas.
+ 
+2. ¿Cómo se crea un bucle infinito en el código de ensamblador presentado? El bucle infinito en el código de ensamblador se
+crea etiquetando una sección del código con el nombre "loop" y luego utilizando una instrucción de salto incondicional (en este caso,
+ "branch to loop") para saltar de nuevo a esa etiqueta. Esto crea un bucle infinito que el procesador no puede salir.
+
+3. ¿Qué archivo se necesita crear para escribir código de ensamblador y cómo se debe guardar?
+Se necesita crear un archivo llamado "assembly.s" para escribir el código de ensamblador, y se debe guardar con esa extensión.
+
+4. ¿Cómo se exporta el símbolo de la función de ensamblador para que el compilador lo utilice?
+Para exportar el símbolo de la función de ensamblador para que el compilador lo utilice, se utiliza la directiva "global"
+seguida del nombre del símbolo. En el ejemplo del video, se usa "global loop" para declarar un símbolo llamado "loop."
+  
+5. ¿Qué comandos se utilizan para compilar el código y generar el archivo ejecutable? (SDK)
+Para compilar el código y generar el archivo ejecutable, el video menciona que se necesita configurar el proyecto para permitir
+el uso de ensamblador como un lenguaje permitido. Luego, se agrega el archivo de ensamblador ("assembly.s") al comando "add_executable"
+ en CMake para que sea incluido en el proceso de compilación. Luego, se ejecutan los comandos "make" y "cmake .."
+ para compilar el proyecto y generar el archivo ejecutable.
+
+6. ¿Cómo se verifica que el código de ensamblador se haya escrito correctamente en el firmware?
+Para verificar que el código de ensamblador se haya escrito correctamente en el firmware, se utiliza el comando "arm-none-eabi-objdump
+-td" en el archivo ejecutable generado para inspeccionar el ensamblado del código. Se busca la etiqueta "loop" para confirmar que la
+función de ensamblador está presente en el firmware.
+
+
+7. ¿Qué comando se utiliza para cargar el firmware en la Raspberry Pi Pico?
+Para cargar el firmware en la Raspberry Pi Pico, se copia el archivo de firmware (en formato UF2) en el
+directorio "media" o "user" de la tarjeta SD conectada a la Pi Pico. Luego, se reinicia la Pi Pico para que ejecute el nuevo firmware.
+
+8. ¿Qué problema se encontró al intentar llamar a la función `gpio_put` desde el archivo de ensamblador?
+El problema encontrado al intentar llamar a la función gpio_put desde el archivo de ensamblador es que gpio_put es una función
+en línea (inline) en la biblioteca Pico SDK, lo que significa que no se puede acceder directamente desde un archivo de ensamblador externo.
+
+
+9. ¿Cómo se resuelve el problema del punto anterior para poder controlar el GPIO desde ensamblador?
+Para resolver este problema, se crea una función de envoltura (wrapper function) llamada "my_gpio_put" en C que llama a gpio_put y se exporta
+al archivo de ensamblador. Luego, desde el archivo de ensamblador, se puede llamar a "my_gpio_put" en lugar de gpio_put para controlar el GPIO.
+
+11. ¿Por qué se menciona que deshabilitar las interrupciones puede ser útil en ciertos casos al escribir código en ensamblador para la Pi Pico W?
+Deshabilitar las interrupciones puede ser útil al escribir código en ensamblador para la Raspberry Pi Pico cuando se necesita realizar operaciones
+sensibles al tiempo y se quiere evitar interrupciones que puedan afectar la ejecución del código. Al usar la instrucción cpsid i, se deshabilitan
+todas las interrupciones, lo que garantiza que el código se ejecute sin interrupciones no deseadas. Luego, al utilizar cpsie i, se vuelven a habilitar
+las interrupciones cuando sea necesario. Esto proporciona un mayor control sobre el funcionamiento del procesador.
+</p>
 
 
 
